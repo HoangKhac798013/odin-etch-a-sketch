@@ -1,0 +1,32 @@
+#grid {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  border-color: blueviolet;
+  border: 1px solid;
+}
+
+.horizontal,
+.vertical {
+  flex: 1;
+}
+
+.horizontal {
+  display: flex;
+  width: 1000px;
+  border: 0px ;
+}
+
+.vertical {
+  border: 1px solid;
+  border-color: black ;
+  /* border-style: solid; */
+  /* border-color: blue; */
+}
+
+#resetGridSize {
+  width: 100%;
+  height: 100px;
+  font-size: 24px;
+}
